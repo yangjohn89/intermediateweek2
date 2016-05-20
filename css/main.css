@@ -1,0 +1,289 @@
+body {
+	padding-top: 50px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+section {
+	padding: 50px 0;
+}
+
+/*Nav bar*/
+.navbar-default {
+	background-color: #02908b;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	border: 1px solid #02908b;
+}
+
+/*nav Logo*/
+
+.navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	position: absolute;
+	left: 20px;
+	top: 3px;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+.navbar-brand span {
+	font-family: 'Open Sans', sans-serif;
+	color:  #cfc91d;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #cfc91d;
+}
+
+/*Opening header*/
+header {
+	background-attachment: fixed;
+	background-image: url(../img/headerbg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 100% 50%;
+	color: #fff;
+	height: 500px;
+	text-align: center;
+	padding-top: 15%;
+}
+header h1 {
+	font-size: 72px;
+	margin: 0;
+	letter-spacing:20px;
+}
+header h2 {
+	font-size: 36px;
+	margin: 0;
+}
+header p {
+	margin-top: 0;
+}
+header img {
+	padding:35px 0;
+}
+header a {
+	padding: 10px 35px;
+	color: #0B1016; 
+	background-color: #CDC71D;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+header a:hover {
+	background-color: #fff; 
+	color: #0B1016;
+	cursor: pointer;
+}
+
+/*About section*/
+.about {
+	text-align: center;
+}
+.about > h2 {
+	color:  #02918c;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.about > img {
+	margin: 15px 0;	
+}
+.about > p {
+	color:  #7e8287;
+	line-height: 41px;
+	width:70%;
+	margin: 0 auto;
+}
+.about > p > span {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.container {
+	color: #7e8287;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.col-sm-3 {
+	border-right: 1px solid black;
+	padding: 1 4%;
+}
+.col-sm-3 i {
+	color: #02918c;
+}
+.col-sm-3:last-child {
+	border: none;
+}
+
+/*Service section*/
+.service {
+	background-image: url(../img/service.png);
+	height: 600px;
+}
+
+.col-md-6 {
+	width: 50%;
+	
+}
+.col-md-6 h2 {
+	color:  #02918c;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.service .container .row img {
+	margin: 15px 0;
+}
+.service .container .row p {
+	color:  #7e8287;
+	line-height: 41px;
+}
+
+.col-md-2 {
+	
+	width: 23%;
+	color:  #7e8287;
+	font-weight: bold;
+}
+.col-md-2 i {
+	color: #02908b;
+
+}
+
+/*Contact section*/
+.contact {
+	text-align: center;
+	padding-bottom: 0;
+}
+.contact h2 {
+	color:  #02918c;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.contact img {
+	margin: 15px 0;	
+}
+.contact p {
+    color:  #7e8287;
+	line-height: 41px;
+	width: 53%;
+    margin: 0 auto 5%;
+}
+.contactForm {
+	background: #0B0B0B;
+	color: #7D8186;
+	padding: 50px 25px;
+}
+.contactForm input {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #7D8186;
+	text-align: center;
+	width: 60%;
+	height: 30px;
+	font-size: 24px;
+	color:#7D8186;
+}
+.contactForm textarea {
+	background: transparent;
+	border: none;
+	border-top: 1px solid #7D8186;
+	border-bottom: 1px solid #7D8186;
+	text-align: center;
+	width: 60%;
+	font-size: 24px;
+	color:#7D8186;
+}
+.contactForm input:focus,
+.contactForm textarea:focus {
+	outline: none;
+}
+
+.contactForm hr.half {
+	margin: 2% 25%;
+}
+.contactForm hr.three_quarters {
+	margin: 4% 10%;
+}
+.contactForm button {
+	clear: both;
+	border:none;
+	padding: 10px 35px;
+	color: #0B1016; 
+	background-color: #CDC71D;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.contactForm button:hover {
+	background-color: #fff; 
+	color: #0B1016;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+	width: 100%;
+	padding: 10px 0;
+	background: #000;
+}
+footer p {
+	color:  #7e8287;
+	text-align: center;
+}
+
+
+@media (max-width: 700px) {
+	header h2 {
+		font-size: 20px;
+	}
+	header h1 {
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+	.about h2 {
+		font-size: 30px;
+	}
+	.about > p {
+		line-height: 30px;
+	}
+	.col-sm-3 {
+		border: none;
+	}
+	.col-md-6 h2 {
+		font-size: 30px;
+	}
+	.service {
+		height: 800px;
+	}
+	.service .container .row p {
+		line-height: 20px;
+    	width: 200px;
+	}
+	.col-md-2 {
+		width: 100%;
+	}
+	.navbar-collapse {
+		background-color: #02908b;
+		text-align: right;
+	}
+
+
+}
